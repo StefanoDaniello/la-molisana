@@ -1,11 +1,15 @@
 <template>
-  <h1 class="text-center">Hello</h1>
-  <i class="fa-solid fa-house"></i>
+  <HeaderComponents/>
+  
 </template>
 
 <script>
+  import HeaderComponents from './assets/components/HeaderComponents.vue'
   export default {
     name: 'App',
+    components: {
+      HeaderComponents,
+    }
   }
 </script>
 
